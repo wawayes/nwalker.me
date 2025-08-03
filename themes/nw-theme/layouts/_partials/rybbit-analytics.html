@@ -1,0 +1,36 @@
+{{- if and (not hugo.IsServer) .Site.Params.rybbitEnabled .Site.Params.rybbitSiteId }}
+<!-- Rybbit Analytics - Performance Optimized -->
+<script>
+(function() {
+  // 延迟加载 Rybbit，确保不影响页面渲染
+  var loadRybbit = function() {
+    var script = document.createElement('script');
+    script.src = 'https://rybbit.nextwalker.me/api/script.js';
+    script.setAttribute('data-site-id', '{{ .Site.Params.rybbitSiteId }}');
+    script.defer = true;
+    
+    // 错误处理：如果 Rybbit 加载失败，不影响网站
+    script.onerror = function() {
+      console.warn('Rybbit Analytics failed to load');
+    };
+    
+    // 加载成功回调
+    script.onload = function() {
+      console.log('Rybbit Analytics loaded successfully');
+    };
+    
+    document.body.appendChild(script);
+  };
+  
+  // 使用 requestIdleCallback 在浏览器空闲时加载
+  if ('requestIdleCallback' in window) {
+    requestIdleCallback(loadRybbit, { timeout: 3000 });
+  } else {
+    // 降级方案：延迟 2 秒后加载（给 GA 更高优先级）
+    window.addEventListener('load', function() {
+      setTimeout(loadRybbit, 2000);
+    });
+  }
+})();
+</script>
+{{- end -}}

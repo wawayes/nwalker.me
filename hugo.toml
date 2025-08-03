@@ -6,3 +6,6 @@ theme = 'nw-theme'
 [params]
   description = 'AI-Powered Builder. Gen Z developer exploring global opportunities.'
   author = 'NWalker'
+  googleAnalytics = 'G-SZQZJWJC6N' # Google Analytics 4 measurement ID (G-XXXXXXXXXX)
+  rybbitEnabled = true # Enable Rybbit analytics
+  rybbitSiteId = '2' # Rybbit site ID

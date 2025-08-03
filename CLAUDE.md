@@ -163,3 +163,10 @@ Key configuration includes:
 - Site title and base URL
 - Menu structure
 - Theme selection
+- Google Analytics ID (in params.googleAnalytics)
+
+### Google Analytics Setup
+To enable Google Analytics:
+1. Get your GA4 measurement ID from Google Analytics (format: G-XXXXXXXXXX)
+2. Add it to hugo.toml: `googleAnalytics = 'G-XXXXXXXXXX'`
+3. Analytics will only load in production (not on hugo server)
