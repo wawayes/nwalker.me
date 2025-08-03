@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "2025-08-03-171615"
             }
-          },
-          {
-            "id": "97e71df9fcb54d7a",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Pasted image 20250803174114.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250803174114"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pasted image 20250803174114.png",
+                "file": "content/posts/2025-08-03-171615.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Pasted image 20250803174114 的反向链接列表"
+              "title": "2025-08-03-171615 的反向链接列表"
             }
           },
           {
@@ -126,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pasted image 20250803174114.png",
+                "file": "content/posts/2025-08-03-171615.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Pasted image 20250803174114 的出链列表"
+              "title": "2025-08-03-171615 的出链列表"
             }
           },
           {
@@ -155,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pasted image 20250803174114.png",
+                "file": "content/posts/2025-08-03-171615.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Pasted image 20250803174114 的大纲"
+              "title": "2025-08-03-171615 的大纲"
             }
           }
         ]
@@ -181,11 +168,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "97e71df9fcb54d7a",
+  "active": "a6428e82264ceb71",
   "lastOpenFiles": [
+    "public/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js",
+    "public/css/main.min.6edb02111c5fcc5adea8227a440dd8e44c9a2e9825b53e9954cc5ae185a31d47.css",
+    "Pasted image 20250803174114.png",
     "Pasted image 20250803174409.png",
     "deploy.sh",
-    "Pasted image 20250803174114.png",
     "content/posts/2025-08-03-171615.md",
     "Pasted image 20250803174111.png",
     "public/posts/2025-08-03-171615/index.html",
