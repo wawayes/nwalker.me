@@ -1,0 +1,28 @@
+{{ define "main" }}
+  <div class="container">
+    <article class="page-content">
+      <div class="hero-content">
+        <div class="avatar">
+          <img src="/avatar.webp" alt="Walker's avatar">
+        </div>
+        <div class="hero-text">
+          <h1 style="font-size: 2.5rem; margin-bottom: 0.5rem;">{{ .Title }}</h1>
+          <div class="content">
+            {{ .Content }}
+          </div>
+        </div>
+      </div>
+      
+      <section class="social-section" style="margin-top: 2rem;">
+        <div class="social-links">
+          <a href="https://twitter.com/yixiannanmo?utm_source=nwalker.me" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">
+            <img src="http://assets.nextwalker.me/x-logo.webp" alt="X" class="social-icon">
+          </a>
+          <a href="https://jike.city/WalkerWang" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Jike">
+            <img src="http://assets.nextwalker.me/jike-logo.webp" alt="Jike" class="social-icon">
+          </a>
+        </div>
+      </section>
+    </article>
+  </div>
+{{ end }}

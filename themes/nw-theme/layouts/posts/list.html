@@ -1,0 +1,28 @@
+{{ define "main" }}
+  <div class="container">
+    <section class="posts-section" style="margin-top: 2rem;">
+      <h1 class="section-title">{{ .Title }}</h1>
+      <div class="posts-grid">
+        {{ range .Pages.ByDate.Reverse }}
+        <article class="post-card">
+          <a href="{{ .RelPermalink }}" class="post-card-link">
+            <div class="post-card-content">
+              <div class="post-card-main">
+                <div class="post-meta">
+                  <time datetime="{{ .Date.Format "2006-01-02" }}">
+                    {{ .Date.Format "Jan 2, 2006" }}
+                  </time>
+                </div>
+                <h3 class="post-card-title">{{ .Title }}</h3>
+              </div>
+              <div class="post-card-footer">
+                <span class="read-more">Read more →</span>
+              </div>
+            </div>
+          </a>
+        </article>
+        {{ end }}
+      </div>
+    </section>
+  </div>
+{{ end }}

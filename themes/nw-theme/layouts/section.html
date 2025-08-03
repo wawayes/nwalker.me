@@ -1,0 +1,22 @@
+{{ define "main" }}
+  {{ if eq .Section "about" }}
+    <div class="container">
+      <article class="page-content">
+        <header class="page-header">
+          <h1>{{ .Title }}</h1>
+        </header>
+        
+        <div class="content">
+          {{ .Content }}
+        </div>
+      </article>
+    </div>
+  {{ else }}
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+    {{ range .Pages }}
+      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+      {{ .Summary }}
+    {{ end }}
+  {{ end }}
+{{ end }}
