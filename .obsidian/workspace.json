@@ -170,6 +170,8 @@
   },
   "active": "a6428e82264ceb71",
   "lastOpenFiles": [
+    "public/css/main.min.6c282d8de203fc085de38d17fb591f148a7d5066a11cdbd4c1d5c67f6479d96c.css",
+    "public/css/main.css",
     "public/_redirects",
     "public/_headers",
     "static/_redirects",
@@ -183,8 +185,6 @@
     "deploy.sh",
     "content/posts/2025-08-03-171615.md",
     "Pasted image 20250803174111.png",
-    "public/posts/2025-08-03-171615/index.html",
-    "public/posts/2025-08-03-171615",
     "content/posts/2025-08-03-.md"
   ]
 }
