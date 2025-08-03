@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "088678017bc207f3",
@@ -170,21 +171,28 @@
   },
   "active": "a6428e82264ceb71",
   "lastOpenFiles": [
-    "public/css/main.min.6c282d8de203fc085de38d17fb591f148a7d5066a11cdbd4c1d5c67f6479d96c.css",
+    "public/img/facelessdiy-logo-240.webp",
+    "public/img/facelessdiy-logo-120.webp",
+    "themes/nw-theme/static/img/facelessdiy-logo-240.webp",
+    "themes/nw-theme/static/img/facelessdiy-logo-120.webp",
+    "public/img/facelessdiy-logo-60.webp",
+    "public/img/avatar-320.webp",
+    "public/img/avatar-160.webp",
+    "public/img/avatar-80.webp",
+    "themes/nw-theme/static/img/facelessdiy-logo-60.webp",
+    "themes/nw-theme/static/img/avatar-320.webp",
+    "themes/nw-theme/static/img/avatar-160.webp",
+    "public/img",
+    "themes/nw-theme/static/img",
+    "public/js/main.js",
+    "public/js/main.js.map",
     "public/css/main.css",
+    "public/css/main.min.c9378d878c4002d48339789fe7c5098965698885f0f5a373e5d1081d32ff11a2.css",
+    "hugo.toml.tmp.72465.1754236557297",
+    "public/css/main.min.62534c30794463b49c90716e8afccc2814207297f02821e44397f19384d2832b.css",
+    "public/css/main.min.6c282d8de203fc085de38d17fb591f148a7d5066a11cdbd4c1d5c67f6479d96c.css",
     "public/_redirects",
-    "public/_headers",
-    "static/_redirects",
-    "static/_headers",
-    "_redirects",
-    "_headers",
-    "public/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js",
-    "public/css/main.min.6edb02111c5fcc5adea8227a440dd8e44c9a2e9825b53e9954cc5ae185a31d47.css",
-    "Pasted image 20250803174114.png",
-    "Pasted image 20250803174409.png",
-    "deploy.sh",
     "content/posts/2025-08-03-171615.md",
-    "Pasted image 20250803174111.png",
     "content/posts/2025-08-03-.md"
   ]
 }

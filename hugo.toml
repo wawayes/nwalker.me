@@ -2,3 +2,7 @@ baseURL = 'https://nwalker.me/'
 languageCode = 'en-us'
 title = 'NWalker'
 theme = 'nw-theme'
+
+[params]
+  description = 'AI-Powered Builder. Gen Z developer exploring global opportunities.'
+  author = 'NWalker'
