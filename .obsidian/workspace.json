@@ -170,6 +170,12 @@
   },
   "active": "a6428e82264ceb71",
   "lastOpenFiles": [
+    "public/_redirects",
+    "public/_headers",
+    "static/_redirects",
+    "static/_headers",
+    "_redirects",
+    "_headers",
     "public/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js",
     "public/css/main.min.6edb02111c5fcc5adea8227a440dd8e44c9a2e9825b53e9954cc5ae185a31d47.css",
     "Pasted image 20250803174114.png",
@@ -179,8 +185,6 @@
     "Pasted image 20250803174111.png",
     "public/posts/2025-08-03-171615/index.html",
     "public/posts/2025-08-03-171615",
-    "content/posts/2025-08-03-.md",
-    "public/posts/2025-08-03-/index.html",
-    "public/posts/2025-08-03-"
+    "content/posts/2025-08-03-.md"
   ]
 }
