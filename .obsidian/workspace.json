@@ -171,6 +171,8 @@
   },
   "active": "a6428e82264ceb71",
   "lastOpenFiles": [
+    "public/robots.txt",
+    "static/robots.txt",
     "themes/nw-theme/layouts/_partials/rybbit-analytics.html",
     "themes/nw-theme/layouts/_partials/google-analytics.html.tmp.72465.1754237904421",
     "themes/nw-theme/layouts/_partials/google-analytics.html",
@@ -190,8 +192,6 @@
     "public/js/main.js",
     "public/js/main.js.map",
     "public/css/main.min.c9378d878c4002d48339789fe7c5098965698885f0f5a373e5d1081d32ff11a2.css",
-    "hugo.toml.tmp.72465.1754236557297",
-    "public/css/main.min.62534c30794463b49c90716e8afccc2814207297f02821e44397f19384d2832b.css",
     "content/posts/2025-08-03-171615.md",
     "content/posts/2025-08-03-.md"
   ]

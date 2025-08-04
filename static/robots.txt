@@ -1,0 +1,13 @@
+# robots.txt for https://nwalker.me
+# Allow all bots to crawl the site
+
+User-agent: *
+Allow: /
+Sitemap: https://nwalker.me/sitemap.xml
+
+# Block specific bot if needed (example)
+# User-agent: BadBot
+# Disallow: /
+
+# Delay between requests (in seconds)
+# Crawl-delay: 1
