@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/2025-08-03-171615.md",
+                "file": "content/posts/2025-08-06-001806.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-08-03-171615"
+              "title": "2025-08-06-001806"
             }
           }
         ]
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/2025-08-03-171615.md",
+                "file": "content/posts/2025-08-06-001806.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025-08-03-171615 的反向链接列表"
+              "title": "2025-08-06-001806 的反向链接列表"
             }
           },
           {
@@ -143,21 +143,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/2025-08-03-171615.md",
+                "file": "content/posts/2025-08-06-001806.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-08-03-171615 的大纲"
+              "title": "2025-08-06-001806 的大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,28 +171,30 @@
   },
   "active": "a6428e82264ceb71",
   "lastOpenFiles": [
-    "public/robots.txt",
-    "static/robots.txt",
-    "themes/nw-theme/layouts/_partials/rybbit-analytics.html",
-    "themes/nw-theme/layouts/_partials/google-analytics.html.tmp.72465.1754237904421",
-    "themes/nw-theme/layouts/_partials/google-analytics.html",
-    "public/css/main.css",
-    "public/img/facelessdiy-logo-240.webp",
-    "public/img/facelessdiy-logo-120.webp",
-    "themes/nw-theme/static/img/facelessdiy-logo-240.webp",
-    "themes/nw-theme/static/img/facelessdiy-logo-120.webp",
-    "public/img/facelessdiy-logo-60.webp",
-    "public/img/avatar-320.webp",
-    "public/img/avatar-160.webp",
-    "public/img/avatar-80.webp",
-    "themes/nw-theme/static/img/facelessdiy-logo-60.webp",
-    "themes/nw-theme/static/img/avatar-320.webp",
-    "public/img",
-    "themes/nw-theme/static/img",
-    "public/js/main.js",
-    "public/js/main.js.map",
-    "public/css/main.min.c9378d878c4002d48339789fe7c5098965698885f0f5a373e5d1081d32ff11a2.css",
+    "Pasted image 20250808011537.png",
+    "Pasted image 20250808011210.png",
+    "Pasted image 20250808010550.png",
+    "Pasted image 20250808004036.png",
+    "Pasted image 20250808001428.png",
+    "Pasted image 20250808001421.png",
+    "Pasted image 20250808001000.png",
+    "Pasted image 20250808000507.png",
+    "Pasted image 20250807235456.png",
+    "Pasted image 20250807233758.png",
+    "Pasted image 20250807233538.png",
+    "themes/nw-theme/static/js/toc.js",
+    "themes/nw-theme/static/js",
+    "themes/nw-theme/layouts/partials/toc.html",
+    "themes/nw-theme/layouts/partials",
+    "public/js/toc.js",
+    "public/js",
+    "content/posts/2025-08-06-001806.md",
+    "content/posts/test-toc.md",
     "content/posts/2025-08-03-171615.md",
+    "public/posts/2025-08-06-001806/index.html",
+    "public/posts/2025-08-06-001806",
+    "public/posts/test-toc/index.html",
+    "public/posts/test-toc",
     "content/posts/2025-08-03-.md"
   ]
 }
