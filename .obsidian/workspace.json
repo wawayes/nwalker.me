@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "hi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,12 +74,12 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "088678017bc207f3",
@@ -169,7 +169,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a6428e82264ceb71",
+  "active": "a60e4eb06a710311",
   "lastOpenFiles": [
     "Pasted image 20250808011537.png",
     "Pasted image 20250808011210.png",
