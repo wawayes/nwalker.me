@@ -17,11 +17,15 @@ export async function GET(context) {
 		title: SITE_TITLE,
 		description: SITE_DESCRIPTION,
 		site: context.site,
-		items: sortedPosts.map((post) => ({
-			title: post.data.title,
-			description: post.data.description,
-			pubDate: post.data.updatedDate ?? post.data.pubDate,
-			link: `/blog/${post.slug}/`,
-		})),
+		items: sortedPosts.map((post) => {
+			const slug = post.slug ?? post.id.replace(/\.mdx?$/, '');
+
+			return {
+				title: post.data.title,
+				description: post.data.description,
+				pubDate: post.data.updatedDate ?? post.data.pubDate,
+				link: `/blog/${slug}/`,
+			};
+		}),
 	});
 }
